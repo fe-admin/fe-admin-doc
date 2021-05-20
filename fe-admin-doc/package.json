@@ -1,0 +1,11 @@
+{
+  "name": "fe-admin-doc",
+  "version": "1.0.0",
+  "description": "fe-admin文档",
+  "main": "index.js",
+  "author": "tjubao@gmail.com",
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.8.2"
+  }
+}
