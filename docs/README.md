@@ -2,15 +2,21 @@
 home: true
 heroImage:
 heroText: Fe-Admin
-tagline: 简单好用的前端中台系统
+tagline: 只为一款简单好用的前端中台系统
 actionText: 快速上手 →
-actionLink: /guide/one
+actionLink: /guide/first
 features:
-  - title: 简洁至上
-    details: 以 Markdown 为中心的项目结构，以最少的配置帮助你专注于写作。
-  - title: Vue驱动
-    details: 享受 Vue + webpack 的开发体验，在 Markdown 中使用 Vue 组件，同时可以使用 Vue 来开发自定义主题。
-  - title: 高性能
-    details: VuePress 为每个页面预渲染生成静态的 HTML，同时在页面被加载的时候，将作为 SPA 运行。
+  - title: 丰富功能
+    details: 提炼了典型的业务场景，提供了丰富的功能组件
+  - title: Vue+Element
+    details: 使用 vue/vuex/vue-router/element/axios 等前端前沿技术开发
+  - title: TypeScript
+    details: 以 TypeScript 为第一开发语言，使协作开发，可控、高效
+  - title: 权限系统
+    details: 通用的角色权限设计，根据权限动态加载路由
+  - title: 国际化
+    details: 开发中...
+  - title: 主题
+    details: 开发中...
 footer: MIT Licensed | Copyright © 2021 fe-admin
 ---
