@@ -1,4 +1,6 @@
+const path = require("path");
 module.exports = {
+  base: "/docs/",
   head: [["link", { rel: "icon", href: "/logo.png" }]],
   title: "fe-admin", // Title for the site. This will be displayed in the navbar.
   themeConfig: {
@@ -33,13 +35,8 @@ module.exports = {
       { text: "GitHub", link: "https://github.com/fe-admin" },
     ],
   },
-  configureWebpack: {
-    outputDir: "doc",
-    resolve: {
-      alias: {
-        "@alias": "/assets/images",
-      },
-    },
+  configureWebpack: (config) => {
+    // config.output.publicPath = "/docs/";
   },
   plugins: ["@vuepress/nprogress"],
 };
