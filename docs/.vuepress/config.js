@@ -12,19 +12,23 @@ module.exports = {
           title: "基础",
           collapsable: false,
           children: [
-            ["first", "介绍"],
-            ["layout", "布局"],
+            "first",
+            "layout",
+            "component",
+            "route",
+            "permission",
+            "page",
           ],
         },
         {
           title: "深入",
           collapsable: false,
-          children: ["g2"],
+          children: ["first"],
         },
       ],
       "/donate/": [
         {
-          title: "配置",
+          title: "",
         },
       ],
     },
@@ -34,9 +38,6 @@ module.exports = {
       { text: "捐赠", link: "/donate/" },
       { text: "GitHub", link: "https://github.com/fe-admin" },
     ],
-  },
-  configureWebpack: (config) => {
-    // config.output.publicPath = "/docs/";
   },
   plugins: ["@vuepress/nprogress"],
 };

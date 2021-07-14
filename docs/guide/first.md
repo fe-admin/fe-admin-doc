@@ -1,3 +1,7 @@
+---
+title: 介绍
+---
+
 # 介绍
 
 [Fe-Admin](https://github.com/fe-admin/fe-admin) 是一个前端中台解决方案，它基于 [vue](https://github.com/vuejs/vue) 和 [element-ui](https://github.com/ElemeFE/element) 实现。它使用了最新的前端技术栈，内置了动态路由，权限验证，提炼了典型的业务模型，提供了丰富的功能组件，它可以帮助你快速搭建企业级中后台产品原型。相信不管你的需求是什么，本项目都能帮助到你。
