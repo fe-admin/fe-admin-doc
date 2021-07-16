@@ -18,6 +18,7 @@ module.exports = {
             "route",
             "permission",
             "page",
+            "api",
           ],
         },
         {
