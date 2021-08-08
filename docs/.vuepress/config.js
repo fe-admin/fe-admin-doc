@@ -17,15 +17,14 @@ module.exports = {
             "component",
             "route",
             "permission",
-            "page",
-            "api",
+            "addpage",
           ],
         },
-        {
-          title: "深入",
-          collapsable: false,
-          children: ["first"],
-        },
+        // {
+        //   title: "深入",
+        //   collapsable: false,
+        //   children: ["first"],
+        // },
       ],
       "/donate/": [
         {
